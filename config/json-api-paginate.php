@@ -17,12 +17,12 @@ return [
     /*
      * The key of the page[x] query string parameter for page number.
      */
-    'number_parameter' => 'page',
+    'page_parameter' => 'page',
 
     /*
      * The key of the page[x] query string parameter for page size.
      */
-    'size_parameter' => 'rows',
+    'row_parameter' => 'rows',
 
     /*
      * The name of the macro that is added to the Eloquent query builder.
