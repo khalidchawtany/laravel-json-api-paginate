@@ -60,7 +60,7 @@ abstract class TestCase extends Orchestra
             $table->timestamps();
         });
 
-        foreach (range(1, 40) as $index) {
+        foreach (range(1, 60) as $index) {
             TestModel::create(['name' => "user{$index}"]);
         }
     }
